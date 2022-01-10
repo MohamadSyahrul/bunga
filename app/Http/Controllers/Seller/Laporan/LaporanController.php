@@ -16,4 +16,11 @@ class LaporanController extends Controller
 
         return view('penjual.laporan.index',compact('data_pesanan','detail_pesanan'));
     }
+
+    public function cetakPdf(){
+        $dp = Pesanan::all();
+        $dlp = PesananDetail::all();
+
+        return view('penjual.laporan.pdf',compact('dp','dlp'));
+    }
 }

@@ -7,16 +7,22 @@
         <div class="content-header row">
         </div>
         <div class="content-body">            
-            <section id="multilingual-datatable">
+            <section id="complex-header-datatable">
                 <div class="row">
                     <div class="col-12">
                         <div class="card">
-                            <table class="" id="lpTB">
+                                <div class="card-header border-bottom">
+                                    <h4 class="card-title">Laporan Penjualan</h4>
+                                    <div class="float-right">
+                                         <a href="{{route('download-pdf')}}" class="btn btn-primary btn-sm">PDF</a>
+                                    </div>
+                                </div>
+                        <div class="card-datatable">
+                            <table class="dt-complex-header table table-bordered table-responsive">
                                 <thead>
                                     <tr>
                                         <th>Tanggal pembelian</th>
                                         <th>Tanggal penjualan</th>
-                                        <th>Pembeli</th>
                                         <th>Pembeli</th>
                                         <th>Keuntungan</th>
                                     </tr>
@@ -120,6 +126,7 @@
                                     @endforeach
                                 </tbody>
                             </table>
+                        </div>
                         </div>
                     </div>
                 </div>

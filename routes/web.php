@@ -82,6 +82,7 @@ Route::middleware(['auth'])->group(function () {
         Route::resource('/kategori', 'Seller\Produk\DataKategoriController');
         Route::resource('/data-supplier', 'Seller\Supplier\SupplierController');
         Route::get('/laporan', 'Seller\Laporan\LaporanController@index');
+        Route::get('/laporan-download-pdf', 'Seller\Laporan\LaporanController@cetakPdf')->name('download-pdf');
 
 });
 
