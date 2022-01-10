@@ -29,7 +29,7 @@
                     <td width="85%">
                         <div align="center" class="style1"><strong>Toko Bunga Banyuwangi<br>
                                 ( KEMBYANG ISUN )</strong><br>
-                            <span class="style2">Jl. Ikan bedul (UD Kembar siam) Karangrejo-banyuwangi</span><br>
+                            <span class="style2">Jl. Ikan Bedul (UD Kembar Siam) Karangrejo - Banyuwangi</span><br>
                             <span class="style2">Whatsapp :082213039596 Instagram : @kembyangisun</span></div>
                     </td>
                 </tr>
